@@ -10,6 +10,6 @@ action "JamesMGreene/add-ooo-to-services-google-calendar@master" {
     SHEET_NAME = "2019-neworg"
     DATE_ROW = "1"
     LOGIN_COL = "B"
-    SPREADSHEET_ID = "1jaLzkVG3BmV2fPjcKoWPeq6kRXB9Lcpqk28r-DcPeZo"
+    SPREADSHEET_ID = "1GoMPfZBppYwKjdu_GR5ZCGhNBgocPfhvvSq4W6S3c2I"
   }
 }

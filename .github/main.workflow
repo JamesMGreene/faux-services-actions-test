@@ -1,6 +1,6 @@
-workflow "On OOO issue created" {
-  on = "issues"
+workflow "On /ooo command in comment within OOO issue" {
   resolves = ["JamesMGreene/add-ooo-to-services-google-calendar@master"]
+  on = "issue_comment"
 }
 
 action "JamesMGreene/add-ooo-to-services-google-calendar@master" {

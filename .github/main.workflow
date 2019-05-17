@@ -8,6 +8,7 @@ action "JamesMGreene/add-ooo-to-services-google-calendar@master" {
   secrets = [
     "GOOGLE_API_CLIENT_EMAIL",
     "GOOGLE_API_PRIVATE_KEY",
+    "GITHUB_TOKEN",
   ]
   env = {
     SHEET_NAME = "2019-neworg"

@@ -1,9 +1,9 @@
 workflow "On /ooo command in comment within OOO issue" {
-  resolves = ["JamesMGreene/add-ooo-to-services-google-calendar@master"]
   on = "issue_comment"
+  resolves = ["add-ooo-to-spreadsheet"]
 }
 
-action "JamesMGreene/add-ooo-to-services-google-calendar@master" {
+action "add-ooo-to-spreadsheet" {
   uses = "JamesMGreene/add-ooo-to-services-google-calendar@master"
   secrets = [
     "GOOGLE_API_CLIENT_EMAIL",
